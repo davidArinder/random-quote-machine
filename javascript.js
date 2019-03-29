@@ -1,4 +1,3 @@
-//https://medium.freecodecamp.org/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08
 var quotes = [
   "It is perilous to study too deeply the arts of the Enemy, for good or for ill. But such falls and betrayals, alas, have happened before.",
   "Go not to the Elves for counsel, for they will say both no and yes.",
@@ -14,7 +13,3 @@ function newQuote() {
 
   document.getElementById('twitterLink').href = "http://twitter.com/intent/tweet/?text=" + encodeURIComponent(quotes[randomNumber])
 }
-
-
-
-//switch to https://codepen.io/souldreamer/pen/WQZoam
